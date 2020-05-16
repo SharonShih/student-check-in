@@ -1,12 +1,20 @@
-# OpenCV & Python Tutorial Series
+# CMPE 181 Final Group Project
+## OpenCV & Python & TensorFlow
+### Requirement
+- OpenCV Installation:
+  - MacOS: https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-mac/
+  - Windows: https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-windows
+- Python 3.7 or above
+- TensorFlow: https://www.tensorflow.org/install/pip#system-install
 
-Related code for the series on [YouTube](https://www.youtube.com/playlist?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS)
 
-New to OpenCV? Try this: https://youtu.be/YY9f-6u2Q_c
+### References:
+- Face recognition:
+  - https://www.youtube.com/playlist?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS 
+  - https://github.com/codingforentrepreneurs/OpenCV-Python-Series
+- Object detection: https://github.com/lkk688/GoogleCloudIoT/tree/master/iotpython
 
-### Learn OpenCV & Python Playlist: [https://www.youtube.com/playlist?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS](https://www.youtube.com/playlist?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS)
 
-### Install OpenCV for Python on your system:
-- Mac: https://youtu.be/iluST-V757A
-- Windows: https://youtu.be/Fcc_jemaoNU
-- Linux with Pi Awesome: https://kirr.co/sx77b7
+### Team Members
+- [En-Ping Shih](https://github.com/SharonShih)
+- [Yang Li](https://github.com/liamLacuna)
