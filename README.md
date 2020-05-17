@@ -5,7 +5,7 @@
   - MacOS: https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-mac/
   - Windows: https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-windows
 - Python 3.7 or above
-- TensorFlow: https://www.tensorflow.org/install/pip#system-install
+- TensorFlow: https://www.tensorflow.org/lite/guide/python
 
 
 ### References:
