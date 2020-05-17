@@ -91,7 +91,7 @@ def visualize_objects(img, results, labels):
             # print(int(obj['class_id']))
             # print(textlabel)
             text_size = 1
-            cv2.putText(img, "id-card", startpoint,  cv2.FONT_HERSHEY_SIMPLEX, text_size, (52, 235, 140),thickness=2)
+            cv2.putText(img, textlabel, startpoint,  cv2.FONT_HERSHEY_SIMPLEX, text_size, (52, 235, 140),thickness=2)
             #annotator.text([xmin, ymin], '%s\n%.2f' % (labels[obj['class_id']], obj['score']))
 
         if "cell" in textlabel and obj['score'] > 0.6:
@@ -206,10 +206,13 @@ def main():
         ret, frame = cap.read()
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+
+        #object detect
         resized = cv2.resize(frame, (width, height)) 
         start_time = time.time()
         results = detect_objects(interpreter, resized, args.threshold)
         elapsed_ms = (time.time() - start_time) * 1000
+        # end of object detect
 
         visualize_objects(frame, results, labels)
 
@@ -264,13 +267,8 @@ def main():
                 # print(conf)
                 # print(labels[id_])
 
-
-                #TODO: add hash table for individual count
-                # if conf >= 70:
-                #     count = count +1
-                #     print(count)
-                # if count >= 10:    
-                #     print('Student [%s] checked in!' % (name_labels[id_]))
+                if conf >= 80:  
+                    print('Student [%s] checked in!' % (name_labels[id_]))
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 # name = labels[id_]
                 namelabel = '%s : %.2f' % (name_labels[id_],conf) + '%'
