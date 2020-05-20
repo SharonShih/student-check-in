@@ -10,7 +10,7 @@
 
 ### References:
 - Face recognition:
-  - https://www.youtube.com/playlist?list=PLEsfXFp6DpzRyxnU-vfs3vk-61Wpt7bOS 
+  - https://www.youtube.com/watch?v=PmZ29Vta7Vc&t=602s 
   - https://github.com/codingforentrepreneurs/OpenCV-Python-Series
 - Object detection: https://github.com/lkk688/GoogleCloudIoT/tree/master/iotpython
 
