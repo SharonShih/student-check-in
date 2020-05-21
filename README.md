@@ -3,6 +3,13 @@
 
 ## :star:  [See Our Video Demo](https://www.youtube.com/watch?v=Wg96SrO8SrA&feature=youtu.be)
 
+### Feautres
+Face Recognition-Liam |  Face Recognition-Sharon
+-------|---------
+![](/screenshots/liam-1.png)|![](/screenshots/sharon-1.jpg)
+Object Detection-ID card | Student ID
+![](/screenshots/liam-2.png)|![](/screenshots/sharon-2.jpg)
+
 
 ## Steps to run the project
 
